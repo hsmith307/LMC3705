@@ -1,11 +1,22 @@
-Country,Value
-United States,12394
-Russia,6148
-Germany (FRG),1653
-France,2162
-United Kingdom,1214
-China,1131
-Spain,814
-Netherlands,1167
-Italy,660
-Israel,1263
+Demographic,Value
+AP Male Voters,13109
+AP Female Voters,13975
+AP Unknown Voters,126
+BH Male Voters,150070
+BH Female Voters,180232
+BH Unknown Voters,610
+HP Male Voters,9980
+HP Female Voters,11265
+HP Unknown Voters,56
+WH Male Voters,147124
+WH Female Voters,152392
+WH Unknown Voters,627
+OT Male Voters,8416
+OT Female Voters,9878
+OT Unknown Voters,130
+UK Male Voters,44271
+UK Female Voters,44687
+UK Unknown Voters,1208
+AI Male Voters,819
+AI Female Voters,707 
+AI Unknown Voters,5
