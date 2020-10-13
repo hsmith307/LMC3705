@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donut Chart</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<script src="C:\Users\hayde\Documents\Fall20\LMC3705\Project4\Chart2\Chart.js"></script>
+</head>
+<body>
+	<canvas id="myChart" width="400" height="400"></canvas>
+
+	<script type="text/javascript">
+		// value data:
+		let AIMaleVoters = 819;
+		let AIFemaleVoters = 707;
+		let APMaleVoters = 13109;
+		let APFemaleVoters = 13975;
+		let BHMaleVoters = 150070;
+		let BHFemaleVoters = 11265;
+		let HPMaleVoters = 9980;
+		let HPFemaleVoters = 11265;
+		let WHMaleVoters = 147124;
+		let WHFemaleVoters = 152392;
+		let OTMaleVoters = 8416;
+		let OTFemaleVoters = 9878;
+		let UKMaleVoters = 44271;
+		let UKFemaleVoters = 44687;
+
+		// value data by race:
+		let AIVoters = 1531;
+		let APVoters = 27210;
+		let BHVoters = 330912;
+		let HPVoters = 21301;
+		let WHVoters = 300143;
+		let OTVoters = 18424;
+		let UKVoters = 90166;
+
+		
+	// And for a doughnut chart
+		var ctx = document.getElementById('myChart');
+		var myChart = new Chart(ctx, {
+	    type: 'doughnut',
+	    data:  {
+	        labels: ['American Indian or Alaskan Native Voters', 'Asian or Pacific Islander Voters', 'Black not of Hispanic Origin Voters', 'Hispanic Voters','White not of Hispanic Origin Voters', 'Other Voters', 'Unknown'],
+	        datasets: [{
+	            label: '# of Voters',
+	            data: [AIVoters, APVoters, BHVoters, HPVoters, WHVoters, OTVoters, UKVoters],
+	            backgroundColor: [
+	                '#13b3a3',
+	                '#fc635c',
+	                '#f2c811',
+	                '#384649',
+	                '#89d4eb',
+	                '#f8a079',
+	                '#a46a9b'
+	            ],
+	        }]
+	    }, 
+	    options: {
+	    	legend: {
+	    		position: 'bottom',
+	    		labels: {
+	    			fontSize: 22,
+	    			fontFamily: 'Montserrat',
+	    			padding: 20
+	    		}
+	    	},
+	    	title: {
+	    		display: true,
+	    		fontSize: 40,
+	    		fontFamily: 'Montserrat',
+	    		position: 'top',
+	    		padding: 20,
+	    		text: 'Fulton County Voters by Race'
+	    	}
+	    	
+	    }
+	});
+</script>
+</body>
+
+</html>
