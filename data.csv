@@ -1,22 +1,22 @@
 Demographic,Value
-AP Male Voters,13109
-AP Female Voters,13975
-AP Unknown Voters,126
-BH Male Voters,150070
-BH Female Voters,180232
-BH Unknown Voters,610
-HP Male Voters,9980
-HP Female Voters,11265
-HP Unknown Voters,56
-WH Male Voters,147124
-WH Female Voters,152392
-WH Unknown Voters,627
-OT Male Voters,8416
-OT Female Voters,9878
-OT Unknown Voters,130
-UK Male Voters,44271
-UK Female Voters,44687
-UK Unknown Voters,1208
-AI Male Voters,819
-AI Female Voters,707 
-AI Unknown Voters,5
+Asian or Pacific Islander - Male Voters,13109
+Asian or Pacific Islander - Female Voters,13975
+Asian or Pacific Islander - Unknown Voters,126
+Black not of Hispanic Origin - Male Voters,150070
+Black not of Hispanic Origin - Female Voters,180232
+Black not of Hispanic Origin - Unknown Voters,610
+Hispanic - Male Voters,9980
+Hispanic - Female Voters,11265
+Hispanic - Unknown Voters,56
+White not of Hispanic Origin - Male Voters,147124
+White not of Hispanic Origin - Female Voters,152392
+White not of Hispanic Origin - Unknown Voters,627
+Other - Male Voters,8416
+Other - Female Voters,9878
+Other - Unknown Voters,130
+Unknown - Male Voters,44271
+Unknown - Female Voters,44687
+Uknown - Unknown Voters,1208
+American Indian or Alaskan Native - Male Voters,819
+American Indian or Alaskan Native - Female Voters,707 
+American Indian or Alaskan Native - Unknown Voters,5
